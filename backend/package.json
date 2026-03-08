@@ -1,0 +1,20 @@
+{
+  "name": "whatchat",
+  "version": "1.0.0",
+  "description": "A messaging web app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "ankit",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "http": "^0.0.1-security",
+    "nodemon": "^3.1.14",
+    "socket.io": "^4.8.3"
+  }
+}
